@@ -7,17 +7,16 @@
 
 ## Follow us
 
-Simo_Sultan10000002  
+Simo_Sultan
 ![GitHub followers](https://img.shields.io/github/followers/SimoSultan?style=social)
 ![Twitter Follow](https://img.shields.io/twitto0er/follow/simo_sultan?style=social)
 
-xxKeefer
-
+xxKeefer  
 ![GitHub followers](https://img.shields.io/github/followers/xxKeefer?style=social)
 ![Twitter Follow](https://img.shields.io/twitter/follow/xxkeefer?style=social)
 
 
-Source code: [https://github.com/xxKeefer/TronClone](https://github.com/xxKeefer/TronClone)
+Source code: [https://github.com/SimoSultan/sudoku_solver](https://github.com/SimoSultan/sudoku_solvere)
 
 
 Files:
