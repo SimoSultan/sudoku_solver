@@ -21,11 +21,11 @@ Source code: [https://github.com/xxKeefer/TronClone](https://github.com/xxKeefer
 
 
 Files:
-- [Help](https://github.com/xxKeefer/TronClone/blob/master/docs/help.md)
-- [Development log](https://github.com/xxKeefer/TronClone/blob/master/docs/dev_log.md)
-- [Software Development Plan](https://github.com/xxKeefer/TronClone/blob/master/docs/sdp.md)
+- [Help](https://github.com/SimoSultan/sudoku_solver/blob/master/docs/help.md)
+- [Development log](https://github.com/SimoSultan/sudoku_solver/blob/master/docs/dev_log.md)
+- [Software Development Plan](https://github.com/SimoSultan/sudoku_solver/blob/master/docs/sdp.md)
 - [Flow Chart](https://miro.com/app/board/o9J_ksv3ufg=/)
-- [Trello Board](https://trello.com/b/s9wZhtPv/tronclone)
+- [Trello Board](https://trello.com/b/86t7ojBp/generic-sudoku-game)
 
 
 

@@ -2,19 +2,19 @@
 
 clear
 
-echo "Welcome to Tron Light Cycle Game Clone"
+echo "Welcome to a Sudoku Solver"
 echo ""
 echo "----------------------------------------"
 echo ""
 
-echo "Ensuring all required gems are installed"
-bundle install
+# echo "Ensuring all required gems are installed"
+# bundle install
 
-echo ""
-echo "All gems have been installed"
-echo ""
-echo "----------------------------------------"
-echo ""
+# echo ""
+# echo "All gems have been installed"
+# echo ""
+# echo "----------------------------------------"
+# echo ""
 
 # echo "Before we start, what's your Coder Name going to be for the game?"
 
@@ -29,4 +29,4 @@ echo ""
 
 # sleep 1
 
-# ruby main.rb $coder_name
+ruby main.rb "sudokus.txt"
