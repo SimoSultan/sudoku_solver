@@ -2,7 +2,7 @@
 
 #### by xxKeefer and Simo_Sultan
 
-![Tron Light Cycle Clone](https://github.com/xxKeefer/TronClone/blob/master/docs/logo.png)
+<!-- ![Tron Light Cycle Clone](https://github.com/xxKeefer/TronClone/blob/master/docs/logo.png) -->
 
 
 ## Follow us
