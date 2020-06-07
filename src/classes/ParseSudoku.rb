@@ -23,13 +23,15 @@ class ParseSudoku
     end
   end
 
-  # Class Methods
+
+  
   def parse_sudoku(puzzle_string)
+    raise NotStringError if puzzle_string.class != String
+    raise StringTooLong if puzzle_string.length > 81
+    raise StringTooShort if puzzle_string.length < 81
+    raise StringHasInvalidCharacters if !puzzle_string.match(/[^0-9]+/).nil?
+    
     puzzle_string
-    # puzzle_string.insert(3,"|")
-    # puzzle_string.insert(-4,"|")
-    # puzzle_string.insert(0,"-")
-    # puzzle_string.insert(-1,"-")
-    # puzzle_string.split(//).join(' ')
   end
 end
+
