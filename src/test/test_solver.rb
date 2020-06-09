@@ -76,18 +76,18 @@ describe ParseSudoku do
       end
     end
 
-    context 'when string not compliant with standard sudoku rules, ' do
-      it 'rejects if a line has duplicates' do
+    context 'when string not a valid sudoku, ' do
+      it 'rejects on line duplicate' do
         expect(puzzle.parse_sudoku('113456879456789123789123456234567891567891234891234567678912345345678912912345678'))
           .to raise_error(ParseSudoku::NotSudokuDuplicateInLine)
       end
 
-      it 'rejects if a column has duplicates' do
+      it 'rejects on column duplicate' do
         expect(puzzle.parse_sudoku('123456879156789123789123456234567891567891234891234567678912345345678912912345678'))
           .to raise_error(ParseSudoku::NotSudokuDuplicateInColumn)
       end
 
-      it 'rejects if a column has duplicates' do
+      it 'rejects on box duplicate' do
         expect(puzzle.parse_sudoku('123456879234567891345678912456789123567891234678912345789123456891234567912345678'))
           .to raise_error(ParseSudoku::NotSudokuDuplicateInBox)
       end
