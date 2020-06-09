@@ -29,7 +29,7 @@ puts
 puts "Here is your sudoku!"
 puts
 
-# generate the gridv
+# generate the grid
 grid_arr = services.generate_grid(sudoku_str)
 # print the sudoku grid
 view.print_sudoku(grid_arr)

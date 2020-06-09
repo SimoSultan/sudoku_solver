@@ -7,7 +7,7 @@
 
 ## Follow us
 
-Simo_Sultan
+Simo_Sultan  
 ![GitHub followers](https://img.shields.io/github/followers/SimoSultan?style=social)
 ![Twitter Follow](https://img.shields.io/twitto0er/follow/simo_sultan?style=social)
 
