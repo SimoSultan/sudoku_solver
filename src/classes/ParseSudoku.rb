@@ -36,22 +36,18 @@ class ParseSudoku
   end
 
   def generate_grid(sudoku_str)
-    # splits string into array of lines, each line contains nine chars
-    lines = sudoku_str.scan(/.{9}/)
+    # splits string into array of lines, each line is an array of nine chars
+    lines = sudoku_str.scan(/.{9}/).map(&:chars)
 
     lines.each do |line|
       line.insert(6, '|')
       line.insert(3, '|')
       line.insert(-1, '-')
       line.insert(0, '-')
-      # i hate this while loop, i have no idea how to do it any other way though.
-      i = 0
-      while i < line.length
-        line.insert(i, ' ') if i.odd?
-        i += 1
-      end
+      line.each_index { |i| line.insert(i, ' ') if i.odd? }
     end
 
+    lines.map!(&:join)
     lines.insert(6, '-------------------------')
     lines.insert(3, '-------------------------')
     lines.insert(-1, '-------------------------')
