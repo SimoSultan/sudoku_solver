@@ -2,8 +2,8 @@
 
 # Sudoku String Parser
 class ParseSudoku
-  require_relative '../mods/services.rb'
-  @format = Services.new
+  # require_relative '../mods/services.rb'
+  # @format = Services.new
   # Custom Errors
   class NotStringError < StandardError
     def message
@@ -26,6 +26,7 @@ class ParseSudoku
     end
   end
 
+
   def parse_sudoku(puzzle_string)
     raise NotStringError if puzzle_string.class != String
     raise StringTooLong if puzzle_string.length > 81
@@ -34,6 +35,7 @@ class ParseSudoku
 
     generate_grid(puzzle_string)
   end
+
 
   def generate_grid(sudoku_str)
     # splits string into array of lines, each line is an array of nine chars
@@ -53,5 +55,6 @@ class ParseSudoku
     lines.insert(-1, '-------------------------')
     lines.insert(0, '-------------------------')
     lines.join("\n")
+
   end
 end

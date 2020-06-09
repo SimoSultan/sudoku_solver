@@ -13,7 +13,7 @@
 #   else display formated string
 
 require 'rspec/autorun'
-require_relative '../classes/ParseSudoku'
+require_relative '../controllers/ParseSudoku'
 
 describe ParseSudoku do
   let(:puzzle) { ParseSudoku.new }

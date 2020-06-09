@@ -2,10 +2,10 @@
 
 clear
 
-echo "Welcome to a Sudoku Solver"
-echo ""
-echo "----------------------------------------"
-echo ""
+# echo "Welcome to a Sudoku Solver"
+# echo ""
+# echo "----------------------------------------"
+# echo ""
 
 # echo "Ensuring all required gems are installed"
 # bundle install
